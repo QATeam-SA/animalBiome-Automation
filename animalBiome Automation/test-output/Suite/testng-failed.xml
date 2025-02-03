@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="signin(failed)">
+    <classes>
+      <class name="com.animalBiome.Automation.Signin_existinguser">
+        <methods>
+          <include name="signin"/>
+        </methods>
+      </class> <!-- com.animalBiome.Automation.Signin_existinguser -->
+    </classes>
+  </test> <!-- signin(failed) -->
+  <test thread-count="5" name="signout(failed)">
+    <classes>
+      <class name="com.animalBiome.Automation.Signout_existinguser">
+        <methods>
+          <include name="signout"/>
+        </methods>
+      </class> <!-- com.animalBiome.Automation.Signout_existinguser -->
+    </classes>
+  </test> <!-- signout(failed) -->
+</suite> <!-- Failed suite [Suite] -->
