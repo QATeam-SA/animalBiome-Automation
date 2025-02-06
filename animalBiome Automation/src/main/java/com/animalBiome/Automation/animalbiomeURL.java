@@ -25,7 +25,6 @@ public class animalbiomeURL {
 		driver.findElement(By.xpath(prop.getProperty("Acessbutton"))).click();
 		Thread.sleep(4000);
 		System.out.println("LoggedIn successfully");
-		driver.quit();
 	}
 
 }
