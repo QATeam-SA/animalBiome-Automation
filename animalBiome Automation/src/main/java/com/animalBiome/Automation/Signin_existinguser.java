@@ -26,7 +26,6 @@ public class Signin_existinguser {
 		Thread.sleep(5000);
 		System.out.println("SignedIn Successfull");
 		logger.info("Existing user is sucessfully Successfully SignedIn");
-		driver.quit();
 		
 	}
 
