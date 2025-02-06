@@ -13,8 +13,6 @@ public class animalbiomeURL {
 	
 	@Test(priority=1, enabled=true)
 	public void login() throws InterruptedException {
-		//WebDriverManager.chromedriver().setup();
-		//ChromeDriver driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		Thread.sleep(3000);
 		driver.get(prop.getProperty("baseURL"));
