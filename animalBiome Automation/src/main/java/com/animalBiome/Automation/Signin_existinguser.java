@@ -17,16 +17,6 @@ public class Signin_existinguser {
 	
 	@Test(priority=2, enabled=true)
 	public void signin() throws InterruptedException {
-		//WebDriverManager.chromedriver().setup();
-		//ChromeDriver driver= new ChromeDriver();
-		driver.manage().window().maximize();
-		Thread.sleep(3000);
-		driver.get(prop.getProperty("baseURL"));
-		Thread.sleep(5000);
-		driver.switchTo(); //switching to pop-up
-		driver.findElement(By.xpath(prop.getProperty("Accesscode"))).sendKeys(prop.getProperty("Authkey"));
-		Thread.sleep(4000);
-		driver.findElement(By.xpath(prop.getProperty("Acessbutton"))).click();
 		Thread.sleep(4000);
 		driver.findElement(By.xpath(prop.getProperty("email"))).sendKeys(prop.getProperty("emailid"));
 		Thread.sleep(4000);
