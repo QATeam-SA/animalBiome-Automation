@@ -1,13 +1,11 @@
 package com.animalBiome.Automation;
 
 import java.util.Properties;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
-
 import com.automation.animalbiome.PropertiesFile;
 
 public class Signin_existinguser {
@@ -25,7 +23,7 @@ public class Signin_existinguser {
 		driver.findElement(By.xpath(prop.getProperty("signIn"))).click();
 		Thread.sleep(5000);
 		System.out.println("SignedIn Successfull");
-		logger.info("Existing user is sucessfully Successfully SignedIn");	
+		logger.info("Existing user is sucessfully Successfully SignedIn");//Done with the Sign In Process//
 	}
 
 }
